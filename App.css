@@ -1,0 +1,85 @@
+/* App.css */
+
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+/* Header Styles */
+h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Input Styles */
+input[type="file"] {
+  margin: 10px 0;
+  padding: 10px;
+  border: 2px solid #007bff;
+  border-radius: 5px;
+  background-color: #fff;
+  cursor: pointer;
+  transition: border-color 0.3s;
+}
+
+input[type="file"]:hover {
+  border-color: #0056b3;
+}
+
+/* Image Preview Styles */
+img {
+  border: 2px solid #007bff;
+  border-radius: 5px;
+  margin: 10px;
+  max-width: 200px;
+  max-height: 200px;
+}
+
+/* Button Styles */
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Video Styles */
+video {
+  border: 2px solid #007bff;
+  border-radius: 5px;
+  margin-top: 20px;
+  max-width: 100%;
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+  img {
+      max-width: 100%;
+      height: auto;
+  }
+
+  video {
+      width: 100%;
+  }
+}
